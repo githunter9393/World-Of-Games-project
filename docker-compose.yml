@@ -1,0 +1,12 @@
+version: '3'
+services:
+  flask-app:
+    build: .
+    container_name: flask-app
+    ports:
+      - "8777:8777"
+    volumes:
+      - .:/app
+    environment:
+      - FLASK_ENV=development
+    command: flask run --host=0.0.0.0
