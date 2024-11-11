@@ -42,7 +42,7 @@ pipeline {
             steps {
                 script {
                     // Run the selenium python script and capture the exit code
-                    def exitCode = sh(script: 'python3 path/e2e.py', returnStatus: true)
+                    def exitCode = sh(script: 'python3 tests/e2e.py', returnStatus: true)
 
                     // Check exit code (0 = success, 1 = failure)
                     if (exitCode != 0) {
