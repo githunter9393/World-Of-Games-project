@@ -21,8 +21,9 @@ pipeline {
             steps {
                 script {
                     // Build Docker image
-                    sh 'docker build -t WOG_image'
+                    sh 'echo"TestUser:11" > test.txt'
                 }
+                sh 'docker build -t WOG_image .'
             }
         }
 
