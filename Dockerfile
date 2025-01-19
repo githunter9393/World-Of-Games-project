@@ -11,6 +11,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the rest of the application code
 COPY . .
 
+# Copy the text file with the test score-table
+COPY /app/test.txt
 # Expose the port that the Flask app runs on
 EXPOSE 8777
 
