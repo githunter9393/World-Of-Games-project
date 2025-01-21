@@ -20,7 +20,7 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 script {
-                    // Build Docker image
+                    // Build the Docker image, only after creating the .txt file with a random score for testing
                     sh 'echo"TestUser:11" > test.txt'
                 }
                 sh 'docker build -t WOG_image .'
