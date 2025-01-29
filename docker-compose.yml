@@ -8,5 +8,5 @@ services:
     volumes:
       - .:/app
     environment:
-      - FLASK_ENV=production
+      - FLASK_APP=MainGame.py
     command: flask run --host=0.0.0.0
