@@ -18,7 +18,7 @@ EXPOSE 8777
 
 # Set environment variables
 ENV FLASK_APP=MainGame.py
-ENV FLASK_ENV=production
+ENV FLASK_RUN_HOST=0.0.0.0
 
 # Run the application
 CMD ["python3", "MainGame.py"]
