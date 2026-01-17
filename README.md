@@ -1,25 +1,35 @@
-📖 Overview
+# 🎮 World Of Games – Python Application
 
-This project is a Python-based application developed to demonstrate practical scripting, logic flow, and modular design. The focus is on writing clear, maintainable code while solving real-world problems programmatically.
+## 📖 Overview
+World Of Games is a Python-based application designed to demonstrate clean coding practices, modular design, and basic API-driven interaction. The project focuses on writing maintainable code while handling user input, application logic, and structured execution flow.
 
-The application emphasizes:
+This project was built as a practical exercise to strengthen Python fundamentals that are directly applicable to automation, scripting, and security tooling.
 
-structured logic
+---
 
-input validation
+## 🧩 Architecture
+- Python application logic
+- Modular structure for game flow and validation
+- Flask-based API component
+- Containerized execution (Docker)
 
-readable output
+The application separates logic from execution, allowing easy extension and testing.
 
-reusable functions
+---
 
-⚙️ Features
+## ⚙️ Features
+- Modular Python codebase
+- Input validation and error handling
+- API interaction via Flask
+- Containerized deployment using Docker
+- Clear execution flow and readable output
 
-Modular Python design
+---
 
-Command-line execution
+## ▶️ How to Run
 
-Clear separation of logic and execution
-
-Error handling and input validation
-
-Readable and maintainable codebase
+### Local Execution
+```bash
+git clone https://github.com/githunter9393/World-Of-Games-project.git
+cd World-Of-Games-project
+python3 main.py
